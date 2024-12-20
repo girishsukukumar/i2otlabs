@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPUwBOyBGyEZhpSbi9Hmg3c",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/girishsukukumar/i2otlabs/blob/master/train-ollama\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "id": "2YEi--vr8-Ji"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "import os\n",
+        "import torch\n",
+        "from datasets import load_dataset\n",
+        "from transformers import (\n",
+        "    AutoModelForCausalLM,\n",
+        "    AutoTokenizer,\n",
+        "    BitsAndBytesConfig,\n",
+        "    TrainingArguments,\n",
+        "    pipeline,\n",
+        "    logging,\n",
+        ")\n",
+        "\n",
+        "from peft import LoraConfig\n",
+        "from trl import SFTTrainer\n",
+        "\n",
+        "print(\"Hello....\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "81g50lc_9Caq"
+      },
+      "execution_count": 8,
+      "outputs": []
+    }
+  ]
+}
